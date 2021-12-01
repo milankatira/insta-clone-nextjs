@@ -16,7 +16,7 @@ const Stories = () => {
     <div
       className="flex 
     scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100
-    space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-scroll"
+    space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-scroll mx-auto"
     >
       {suggestions.map((profile, i) => (
         <Story
