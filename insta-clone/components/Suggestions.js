@@ -11,8 +11,6 @@ useEffect(() => {
 
   setSuggestions(suggestions);
 }, []);
-
-
     return (
         <div className="mt-4 ml-10">
       <div className="flex justify-between text-sm mb-5">
